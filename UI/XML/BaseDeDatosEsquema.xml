@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseDeDatos>
+	<usuarios>
+		<usuario id="1">
+			<nombre>Gloria</nombre>
+			<apellido>Chacon</apellido>
+			<dni>95952385</dni>
+			<username>admin</username>
+			<clave>MQAyADMANAA1AA==</clave>
+			<rolid>100</rolid>
+		</usuario>
+	</usuarios>
+	<roles>
+		<rol id="100">
+			<nombre>Administrador</nombre>
+		</rol>
+	</roles>
+	<salas>
+	</salas>
+	<instrumentos>
+	</instrumentos>
+	<clientes>
+	</clientes>
+	<permisos>
+		<permiso id ="5001">
+			<nombre>Administracion</nombre>
+		</permiso>
+		<permiso id ="5002">
+			<nombre>Alquileres</nombre>
+		</permiso>
+		<permiso id ="5003">
+			<nombre>Gestion</nombre>
+		</permiso>
+		<permiso id ="5004">
+			<nombre>Informes</nombre>
+		</permiso>
+		<permiso id ="5005">
+			<nombre>Seguridad</nombre>
+		</permiso>
+	</permisos>
+	<rolpermisos>
+		<rolpermiso>
+			<rolid>100</rolid>
+			<permisoid>5001</permisoid>
+		</rolpermiso>
+		<rolpermiso>
+			<rolid>100</rolid>
+			<permisoid>5002</permisoid>
+		</rolpermiso>
+		<rolpermiso>
+			<rolid>100</rolid>
+			<permisoid>5003</permisoid>
+		</rolpermiso>
+		<rolpermiso>
+			<rolid>100</rolid>
+			<permisoid>5004</permisoid>
+		</rolpermiso>
+		<rolpermiso>
+			<rolid>100</rolid>
+			<permisoid>5005</permisoid>
+		</rolpermiso>
+	</rolpermisos>
+	<alquileressala>
+	</alquileressala>
+	<alquileresinstrumentos>
+	</alquileresinstrumentos>
+</BaseDeDatos>
